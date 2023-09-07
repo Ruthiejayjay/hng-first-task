@@ -23,6 +23,8 @@ class FirstTaskController extends Controller
                 'current_day' => now()->format('l'),
                 'utc_time' => Carbon::now(),
                 'track' => $track,
+                'github_file_url' => 'https://github.com/Ruthiejayjay/hng-first-task/blob/main/app/Http/Controllers/FirstTaskController.php',
+                'github_repo_url' => 'https://github.com/Ruthiejayjay/hng-first-task',
                 'status_code' => 200
 
             ]);
