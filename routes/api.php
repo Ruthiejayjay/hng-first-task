@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::get('/resource', [FirstTaskController::class, 'index']);
+Route::get('', [FirstTaskController::class, 'index']);
